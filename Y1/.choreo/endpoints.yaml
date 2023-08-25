@@ -6,17 +6,24 @@ endpoints:
   # +required Unique name for the endpoint. (This name will be used when generating the managed API)
   - name: Y1
     # +required Numeric port value that gets exposed via this endpoint
-    port: 3000
+    port: 3003
     # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
     # Allowed values: REST, GraphQL, GRPC
     type: REST
     # +optional Network level visibility of this endpoint. Defaults to Project
     # Accepted values: Project|Organization|Public.
-    networkVisibility: Project
+    networkVisibility: Public
     # +optional Context (base path) of the API that is exposed via this endpoint.
     # This is mandatory if the endpoint type is set to REST or GraphQL.
-    context: .
+    context: /basepath3
     # +optional Path to the schema definition file. Defaults to wild card route if not provided
     # This is only applicable to REST endpoint types.
     # The path should be relative to the docker context.
     schemaFilePath: openapi.yaml
+connections:
+  - id: choreo://ABC/A/Y2/basepath4
+    mappings:
+      - service.url: Y2_SVC_URL
+      - consumer.secret: Y2_SVC_CONSUMER_SECRET
+      - consumer.key: Y2_SVC_CONSUMER_KEY
+      - token.url: Y2_SVC_TOKEN_URL
