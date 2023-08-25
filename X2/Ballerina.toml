@@ -1,0 +1,8 @@
+[package]
+org = "Madusha"
+name = "X2"
+version = "1.0.0"
+distribution = "2201.7.1"
+
+[build-options]
+observabilityIncluded = true
