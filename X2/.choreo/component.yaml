@@ -21,7 +21,7 @@ endpoints:
     # The path should be relative to the docker context.
     schemaFilePath: openapi.yaml
 connections:
-  - id: choreo://ABC/A/Y2/basepath4
+  - id: choreo://A/Y2/v1/basepath4
     mappings:
       - service.url: Y2_SVC_URL
       - consumer.secret: Y2_SVC_CONSUMER_SECRET
