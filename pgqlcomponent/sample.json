@@ -1,0 +1,267 @@
+{
+    "id": "31b43d68-5fa9-46a2-9b0e-35aa6f79ee40",
+    "name": "A",
+    "components": [
+        {
+            "id": "X1",
+            "orgName": "madusha",
+            "modelVersion": "0.4.0",
+            "type": "ballerinaService",
+            "services": {
+                "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X1:x1endpoint1": {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X1:x1endpoint1",
+                    "label": "",
+                    "remoteFunctions": [],
+                    "resourceFunctions": [],
+                    "type": "REST",
+                    "dependencies": [],
+                    "annotation": {
+                        "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X1:x1endpoint1",
+                        "label": "x1endpoint1"
+                    },
+                    "sourceLocation": {
+                        "filePath": "/Users/madusha/temp0825/A/repos/madushajg/choreo0825/X1/.choreo/component.yaml",
+                        "startPosition": {
+                            "line": 0,
+                            "offset": 0
+                        },
+                        "endPosition": {
+                            "line": 0,
+                            "offset": 0
+                        }
+                    },
+                    "deploymentMetadata": {
+                        "gateways": {
+                            "internet": {
+                                "isExposed": false
+                            },
+                            "intranet": {
+                                "isExposed": true
+                            }
+                        }
+                    }
+                }
+            },
+            "entities": {},
+            "hasCompilationErrors": true,
+            "connections": [
+                {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X2:x2endpoint1",
+                    "isWithinPlatform": true,
+                    "type": "http"
+                }
+            ]
+        },
+        {
+            "id": "X2",
+            "orgName": "madusha",
+            "modelVersion": "0.4.0",
+            "type": "ballerinaService",
+            "services": {
+                "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X2:x2endpoint1": {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X2:x2endpoint1",
+                    "label": "",
+                    "remoteFunctions": [],
+                    "resourceFunctions": [],
+                    "type": "REST",
+                    "dependencies": [],
+                    "annotation": {
+                        "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:X2:x2endpoint1",
+                        "label": "x2endpoint1"
+                    },
+                    "sourceLocation": {
+                        "filePath": "/Users/madusha/temp0825/A/repos/madushajg/choreo0825/X2/.choreo/component.yaml",
+                        "startPosition": {
+                            "line": 0,
+                            "offset": 0
+                        },
+                        "endPosition": {
+                            "line": 0,
+                            "offset": 0
+                        }
+                    },
+                    "deploymentMetadata": {
+                        "gateways": {
+                            "internet": {
+                                "isExposed": false
+                            },
+                            "intranet": {
+                                "isExposed": false
+                            }
+                        }
+                    }
+                }
+            },
+            "entities": {},
+            "hasCompilationErrors": true,
+            "connections": [
+                {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y2:y2endpoint1",
+                    "isWithinPlatform": true,
+                    "type": "http"
+                },
+                {
+                    "id": "salesforce://salesforceCorporate",
+                    "isWithinPlatform": false,
+                    "type": "connector"
+                }
+            ]
+        },
+        {
+            "id": "Y1",
+            "orgName": "madusha",
+            "modelVersion": "0.4.0",
+            "type": "ballerinaService",
+            "services": {
+                "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y1:y1endpoint1": {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y1:y1endpoint1",
+                    "label": "",
+                    "remoteFunctions": [],
+                    "resourceFunctions": [],
+                    "type": "REST",
+                    "dependencies": [],
+                    "annotation": {
+                        "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y1:y1endpoint1",
+                        "label": "y1endpoint1"
+                    },
+                    "sourceLocation": {
+                        "filePath": "/Users/madusha/temp0825/A/repos/madushajg/choreo0825/Y1/.choreo/component.yaml",
+                        "startPosition": {
+                            "line": 0,
+                            "offset": 0
+                        },
+                        "endPosition": {
+                            "line": 0,
+                            "offset": 0
+                        }
+                    },
+                    "deploymentMetadata": {
+                        "gateways": {
+                            "internet": {
+                                "isExposed": true
+                            },
+                            "intranet": {
+                                "isExposed": false
+                            }
+                        }
+                    }
+                }
+            },
+            "entities": {},
+            "hasCompilationErrors": true,
+            "connections": [
+                {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y2:y2endpoint1",
+                    "isWithinPlatform": true,
+                    "type": "http"
+                }
+            ]
+        },
+        {
+            "id": "Y2",
+            "orgName": "madusha",
+            "modelVersion": "0.4.0",
+            "type": "ballerinaService",
+            "services": {
+                "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y2:y2endpoint1": {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y2:y2endpoint1",
+                    "label": "",
+                    "remoteFunctions": [],
+                    "resourceFunctions": [],
+                    "type": "REST",
+                    "dependencies": [],
+                    "annotation": {
+                        "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Y2:y2endpoint1",
+                        "label": "y2endpoint1"
+                    },
+                    "sourceLocation": {
+                        "filePath": "/Users/madusha/temp0825/A/repos/madushajg/choreo0825/Y2/.choreo/component.yaml",
+                        "startPosition": {
+                            "line": 0,
+                            "offset": 0
+                        },
+                        "endPosition": {
+                            "line": 0,
+                            "offset": 0
+                        }
+                    },
+                    "deploymentMetadata": {
+                        "gateways": {
+                            "internet": {
+                                "isExposed": false
+                            },
+                            "intranet": {
+                                "isExposed": false
+                            }
+                        }
+                    }
+                }
+            },
+            "entities": {},
+            "hasCompilationErrors": true,
+            "connections": [
+                {
+                    "id": "madusha:B:C:cendpoint1",
+                    "isWithinPlatform": true,
+                    "type": "http"
+                },
+                {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Z:basepath5",
+                    "isWithinPlatform": true,
+                    "type": "http"
+                }
+            ]
+        },
+        {
+            "id": "Z",
+            "orgName": "madusha",
+            "modelVersion": "0.4.0",
+            "type": "ballerinaService",
+            "services": {
+                "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Z:zendpoint1": {
+                    "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Z:zendpoint1",
+                    "label": "",
+                    "remoteFunctions": [],
+                    "resourceFunctions": [],
+                    "type": "REST",
+                    "dependencies": [],
+                    "annotation": {
+                        "id": "madusha:31b43d68-5fa9-46a2-9b0e-35aa6f79ee40:Z:zendpoint1",
+                        "label": "zendpoint1"
+                    },
+                    "sourceLocation": {
+                        "filePath": "/Users/madusha/temp0825/A/repos/madushajg/choreo0825/Z/.choreo/component.yaml",
+                        "startPosition": {
+                            "line": 0,
+                            "offset": 0
+                        },
+                        "endPosition": {
+                            "line": 0,
+                            "offset": 0
+                        }
+                    },
+                    "deploymentMetadata": {
+                        "gateways": {
+                            "internet": {
+                                "isExposed": false
+                            },
+                            "intranet": {
+                                "isExposed": false
+                            }
+                        }
+                    }
+                }
+            },
+            "entities": {},
+            "hasCompilationErrors": true,
+            "connections": [
+                {
+                    "id": "salesforce://salesforceCorporate",
+                    "isWithinPlatform": false,
+                    "type": "connector"
+                }
+            ]
+        }
+    ],
+    "version": "0.4.0"
+}
