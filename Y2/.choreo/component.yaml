@@ -1,5 +1,6 @@
 version: 0.1
 
+type: service
 endpoints:
   - name: y2endpoint1
     port: 3004
@@ -8,7 +9,7 @@ endpoints:
     context: /basepath4
     schemaFilePath: openapi.yaml
 connections:
-  - id: choreo://B/C/v1/cendpoint1
+  - id: choreo://B/C/v1/endpoint1
     mappings:
       - service.url: C_SVC_URL
       - consumer.secret: C_SVC_CONSUMER_SECRET

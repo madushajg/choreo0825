@@ -1,5 +1,6 @@
 version: 0.1
 
+type: service
 endpoints:
   - name: x2endpoint1
     port: 3002
@@ -15,6 +16,7 @@ connections:
       - consumer.key: Y2_SVC_CONSUMER_KEY
       - token.url: Y2_SVC_TOKEN_URL
   - id: salesforce://salesforceCorporate	
+    kind: connector
     mappings:
       - instance.url: SALESFORCECOPERATE_INSTANCE_URL
       - PAT: SALESFORCECOPERATE_PAT

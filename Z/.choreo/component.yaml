@@ -1,5 +1,6 @@
 version: 0.1
 
+type: service
 endpoints:
   - name: zendpoint1
     port: 3005
@@ -8,7 +9,9 @@ endpoints:
     context: /basepath5
     schemaFilePath: openapi.yaml
 connections:
-  - id: salesforce://salesforceCorporate	
+  - id: dynamoDb://dynamoDb	
+    kind: datastore
     mappings:
-      - instance.url: SALESFORCECOPERATE_INSTANCE_URL
-      - PAT: SALESFORCECOPERATE_PAT
+      - instance.url: DB_INSTANCE_URL
+      - user: DB_USER
+      - password: DB_PASSWORD
